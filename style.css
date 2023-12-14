@@ -117,3 +117,17 @@ body {
   margin-right: 75px;
   margin-left: 20px;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  border: 2px solid #F05941;
+  width: 20%;
+  height: 100px;
+  margin-bottom: 2%;
+  font-family: Courier New;
+}
