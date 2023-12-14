@@ -62,6 +62,7 @@ body {
   display: block
 }
 
+/* for the repair page */
 .images {
   display: flex;
 }
@@ -86,6 +87,11 @@ body {
   }
 }
 
+/* to spin the image on repair slide*/
+#spinImage {
+            transition: transform 1s ease-in-out; 
+        }
+
 .center {
   width: 300px;
   height: 200px;
@@ -95,11 +101,6 @@ body {
   margin-right: auto;
   width: 50%;
 }
-
-/* to spin the image on repair slide*/
-#spinImage {
-            transition: transform 1s ease-in-out; 
-        }
 
 .gallery{
   width: 300px;
@@ -111,6 +112,7 @@ body {
   width: 50%;
 }
 
+/* for gallery*/
 .broken{
   width: 170px;
   height: 170px;
@@ -118,6 +120,7 @@ body {
   margin-left: 20px;
 }
 
+/* flex box*/
 .container {
   display: flex;
   flex-wrap: wrap;
